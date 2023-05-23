@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         <>
           <header className={classes.header}>
             <div>
-              <Link style={{ textDecoration: "none" }} y to={`/`}>
+              <Link style={{ textDecoration: "none" }} to={`/`}>
                 <p>RealWorld Blog</p>
               </Link>
             </div>
