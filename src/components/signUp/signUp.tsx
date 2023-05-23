@@ -18,10 +18,11 @@ const SignUp: React.FC = () => {
 
   const onSubmit = async (data: any) => {
     await userRegistration(data).then((temp: any) => {
+      console.log(temp);
       dispatch(setUserData(data));
       dispatch(setLogStatus(true));
       saveToken(temp?.data?.user?.token);
-      saveData(JSON.stringify(data));
+      saveData(JSON.stringify(temp));
       saveIsLogin(true);
       navigate(`/`);
     });

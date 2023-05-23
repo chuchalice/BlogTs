@@ -21,7 +21,6 @@ const Header: React.FC = () => {
   const { isLogin, username, avatar } = useTypedSelector(
     (state) => state.userSlice
   );
-  console.log(avatar);
   return (
     <>
       {isLogin && (
