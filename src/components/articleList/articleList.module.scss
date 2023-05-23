@@ -1,0 +1,13 @@
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 35px;
+  row-gap: 26px;
+}
+.pagination {
+  align-self: center;
+  padding-bottom: 20px;
+}

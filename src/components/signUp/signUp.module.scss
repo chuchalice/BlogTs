@@ -1,0 +1,33 @@
+.signup-wrapper {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.form-wrapper {
+  padding-top: 45px;
+}
+.signup-title {
+  justify-content: center;
+  display: flex;
+  color: black;
+}
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+.sign-check {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

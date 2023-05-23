@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__authentication {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  &__sign-button {
+    color: rgba(82, 196, 26, 1);
+    border-color: rgba(82, 196, 26, 1);
+  }
+  &__logout-button {
+    border-color: black;
+  }
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: rgba(235, 238, 243, 1);
+}
+
+p,
+button,
+h1,
+h3 {
+  margin: 0;
+  font-family: "Open Sans";
+}
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+h1 {
+  font-size: 20px;
+  color: rgba(24, 144, 255, 1);
+  font-weight: 500;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.app {
+  position: relative;
+  width: auto;
+  margin: auto;
+  height: 100vh;
+}

@@ -1,0 +1,52 @@
+.tag-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.account-wrapper {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.image-wrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.acc-info {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+}
+.heart {
+  cursor: pointer;
+}
+.likes-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.description {
+  max-height: 20px;
+  max-width: 250px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.5);
+}
